@@ -1,0 +1,40 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Dependency/build outputs
+node_modules/
+dist/
+build/
+*.egg-info/
+
+# Generated challenge artifacts and local scratch files
+code.zip
+*.zip
+contact_*.jpg
+_zip_smoke/
+_zip_smoke_output.csv
+claims/
+code/evaluation/sample_predictions.csv
