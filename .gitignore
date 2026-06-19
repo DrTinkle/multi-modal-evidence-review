@@ -6,6 +6,7 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .coverage
+.coverage.*
 htmlcov/
 
 # Virtual environments and local configuration
@@ -30,11 +31,26 @@ dist/
 build/
 *.egg-info/
 
-# Generated challenge artifacts and local scratch files
-code.zip
-*.zip
+# Logs
+*.log
+*.jsonl
+
+# Generated outputs
+output.csv
+code/evaluation/sample_predictions.csv
+
+# Local model/cache artifacts
+code/cache/
+code/logs/
+models/
+
+# Challenge scratch files
 contact_*.jpg
 _zip_smoke/
 _zip_smoke_output.csv
+_one_*.csv
 claims/
-code/evaluation/sample_predictions.csv
+
+# Submission archives
+code.zip
+submission.zip
